@@ -1,0 +1,10 @@
+<div class="favourites">
+  <h3 class="favourites_title">My Favourite movies </h3>
+  <ng-container *ngIf="favouriteMovies.length; else noFavouriteMovies;">
+    <ul class="list-group list-group-horizontal m-4 favourite_movies_list">
+        <li class="list-group-item" *ngFor="let movie of favouriteMovies">{{movie.title}}, {{movie.year}}</li>
+    </ul>
+  </ng-container>
+  <ng-template #noFavouriteMovies><p class="noFavouriteMovies">No favourite movies saved</p></ng-template>
+</div>
+

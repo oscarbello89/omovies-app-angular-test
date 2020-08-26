@@ -1,0 +1,41 @@
+.favourites {
+  background-color: yellow;
+  height: 40%;
+}
+
+.favourites_title {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+}
+
+.favourite_movies_list{
+  padding-bottom: 25px;
+  margin-bottom: 15px;
+}
+
+.noFavouriteMovies{
+  padding-bottom: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+}
+
+
